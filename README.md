@@ -16,30 +16,32 @@ The original Git repo is cloned and extended with the following enhancements:
 
 Results
 =======
-*AVG Time Taken*
-	dozer	    selma	orika	manual
-	150,653	    1,466	11,730	2,200
-	151,753	    1,466	11,363	2,566
-	152,852	    1,467	12,096	2,566
-*AVG*	151,753	    1,466	11,730	2,444
+**AVG Time Taken**
+	dozer	 |   selma	| orika	| manual
+	--- | --- | --- | ---
+	150,653	 |   1,466 |	11,730	| 2,200
+	151,753	 |   1,466 |	11,363	| 2,566
+	152,852	 |   1,467 |	12,096	| 2,566
+	**151,753** |  1,466  |	11,730	| 2,444
 
 
-*MAX Time Taken*
-	dozer	    selma	    orika	    manual
-	25,434,601	852,231	    550,926	    312,667
-	17,013,460	338,326	    428,865	    371,682
-	31,742,576	226,529	    369,117	    271,614
-*AVG*	24,730,212	472,362	    449,636	    318,654
+**MAX Time Taken**
+	dozer	|    selma	 |   orika	 |   manual
+	--- | --- | --- | ---
+	25,434,601 |	852,231	 |   550,926	 |   312,667
+	17,013,460 |	338,326	    428,865	  |  371,682
+	31,742,576 |	226,529	 |   369,117	 |    271,614
+	**24,730,212** |	**472,362**	 |   **449,636**	  |  **318,654**
 
 
 Conclusion
 ==========
-1st Choice: Selma
-2nd Choice: Orika
+  *1st Choice: Selma
+  *2nd Choice: Orika
 
 Next Step
 ==========
 Review the following capabilities of the two recommended libraries to make a final recommendation:
-- Easiness of creating mapping
-- Support for complex mapping with nested objects
+  - Easiness of creating mapping
+  - Support for complex mapping with nested objects
 
