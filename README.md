@@ -38,12 +38,7 @@ Results
 
 Conclusion
 ==========
+Among the frameworks tested here:
   * 1st Choice: Selma
   * 2nd Choice: Orika
-
-Next Step
-==========
-Review the following capabilities of the two recommended libraries to make a final recommendation:
-  - Easiness of creating mapping
-  - Support for complex mapping with nested objects
 
