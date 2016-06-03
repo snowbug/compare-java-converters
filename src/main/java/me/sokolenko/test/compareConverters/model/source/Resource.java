@@ -1,11 +1,15 @@
 package me.sokolenko.test.compareConverters.model.source;
 
+import fr.xebia.extras.selma.Mapper;
+import me.sokolenko.test.compareConverters.selma.ResourceCustomMapping;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Anatoliy Sokolenko
  */
+
 public class Resource {
 
     private Long id;
